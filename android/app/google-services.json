@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "917731395508",
+    "project_id": "partybookr-8b9fc",
+    "storage_bucket": "partybookr-8b9fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917731395508:android:a4bd49b4f03491f80dd4e1",
+        "android_client_info": {
+          "package_name": "com.partybooker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917731395508-363rngtd6nnhrdlkr8tmtsons63jleaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.partybooker",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "917731395508-icbr866tu47rp34jo3katjjdi53ll8ps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.partybooker",
+            "certificate_hash": "e301681a30eaad08132d65da5de15857e183dce4"
+          }
+        },
+        {
+          "client_id": "917731395508-lgd48vdvvh6v6corbodcocnkms014g3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf1vAyvdU4cklsnVSRjZu3AUpmoFR3NiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917731395508-lgd48vdvvh6v6corbodcocnkms014g3a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "917731395508-0s715a76999smvi6ro7i4pa00oca3rh3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.crestcoder.partybookr"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "25.1.8937393"
+        kotlinVersion = "1.8.0"
+        //kotlinVersion = "1.7.10"
+        supportLibVersion = "33.0.0"
+        sqipVersion="1.6.5"
+        googlePlayServicesAuthVersion = "20.7.0"
+        //agp_version = '8.3.0'
+        //agp_version1 = '7.4'// <--- use this version or newer
+
+        useExoplayerIMA = false
+        useExoplayerRtsp = false
+        useExoplayerSmoothStreaming = true
+        useExoplayerDash = false
+        useExoplayerHls = false
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+
+    }
+    subprojects { subproject ->
+        if (project['name'] == 'react-native-reanimated') {
+            project.configurations { compile {} }
+        }
+    }
+    dependencies {
+
+        classpath 'com.google.gms:google-services:4.4.1'
+        classpath("com.android.tools.build:gradle:7.4.2")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        //classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
+
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+
+    }
+//    plugins{
+//        id 'com.google.gms.google-services' version '4.4.0' apply false
+//    }
+}
+// allprojects {
+  
+//   repositories {
+//     // Check that you have the following line (if not, add it):
+//     google()  // Google's Maven repository
+//   }

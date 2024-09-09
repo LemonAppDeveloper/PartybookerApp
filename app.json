@@ -1,0 +1,18 @@
+{
+  "name": "PartyBooker",
+  "displayName": "PartyBooker",
+  "plugins": [
+    [
+      "react-native-video",
+      {
+        "enableNotificationControls": false,
+        "androidExtensions": {
+          "useExoplayerRtsp": false,
+          "useExoplayerSmoothStreaming": true,
+          "useExoplayerHls": false,
+          "useExoplayerDash": false
+        }
+      }
+    ]
+  ]
+}
